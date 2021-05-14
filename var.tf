@@ -14,6 +14,7 @@ variable "ami"{
 }     
 variable "elb_name"{
     type= string
+    default= "myelb"
 }
 variable "az"{
     type =list
